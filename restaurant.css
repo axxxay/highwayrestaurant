@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* --------------------------------------NAVIGATION BAR CSS----------------------------------- */
+
+.nav-bg-color {
+    background-image: linear-gradient(to right, #4da6ff, #1affff);
+    border-radius: 50px;
+    width: 75%;
+}
+
+#navItem1 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: black;
+    font-family: "Roboto";
+}
+
+/* --------------------------------------HOME PAGE SECTION CSS------------------------------------- */
+
+.home-page-button {
+    background-color: #4da6ff;
+    color: #0d0d0d;
+    border-width: 0px;
+    font-family: "Roboto";
+    font-size: 12px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: 700;
+    border-bottom-width: 1px;
+}
+
+.home-page-para {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.home-page-para-span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.home-page-bg-container {
+    background-color: white;
+    height: 100%;
+}
+
+.logo {
+    font-family: "Brush Script MT";
+    color: white;
+}
+
+
+.home-page-highway-logo {
+    width: 100%;
+    user-select: none;
+}
+
+.home-page-biryani-image {
+    width: 100%;
+    user-select: none;
+}
+
+/* ---------------------------MY HIGHWAY SECTION CSS (GALLERY)----------------------------- */
+
+.my-highway-bg-section {
+    background-color: white;
+}
+.my-highway-green-card {
+    background-color: #8bc16d;
+    height: 70px;
+    width: 80%;
+    border-radius: 15px;
+}
+.my-highway-card-gallery {
+    width: 200px;
+    user-select: none;
+}
+.my-highway-road-img {
+    user-select: none;
+}
+.column-1 {
+    margin-top: 75px;
+}
+.column-2 {
+    margin-top: 120px;
+}
+.column-3 {
+    margin-top: 55px;
+}
+.column-4 {
+    margin-top: 130px;
+}
+.road-height {
+    height: 170px;
+}
+.image-radius {
+    border-radius: 15px;
+    user-select: none;
+}
+
+
+/* ---------------------------MENU SECTION CSS-------------------------------- */
+
+.menu-item-heading {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.menu-card {
+    background-color: white;
+    border-radius: 35px;
+    transition: width 4s, height 4s background 0.5s;
+}
+.menu-card:hover {
+    width: 101%;
+    background-color: lightgoldenrodyellow;
+}
+
+.menu-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    user-select: none;
+}
+
+.menu-line {
+    border-width: 2px;
+    border-color: black;
+}
+
+.explore-menu-heading {
+    width: 40%;
+    user-select: none;
+}
+
+.menu-section-bg-container {
+    background-color: #f3cd8c;
+
+}
+
+.menu-view-all {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* ----------------------------------WHY CHOOSE US SECTION CSS--------------------------------- */
+
+.why-choose-us-heading {
+    width: 40%;
+    user-select: none;
+}
+
+.why-choose-us-card-desc {
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.why-choose-us-card-heading {
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.why-choose-us-image {
+    width: 50%;
+    border-radius: 14px;
+    user-select: none;
+}
+
+.why-choose-us-image-md {
+    width: 100%;
+    border-radius: 14px;
+    user-select: none;
+}
+
+.why-card {
+    background-color: #ebdaa8;
+    border-radius: 16px;
+    width: 100%;
+}
+
+.why-choose-us-bg-container {
+    background-color: white;
+}
+
+.why-choose-us-logo-container {
+    background-color: #f3cd8c;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+}
+
+/* ----------------------------------FOLLOW US SECTION CSS----------------------------------*/
+
+.follow-us-bg-section {
+    background-color: #e6f3ff;
+    height: 100vh;
+}
+
+.social-img {
+    width: 50px;
+    user-select: none;
+}
+
+.social-links {
+    color: black;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.contact-us-reach-logo {
+    width: 250px;
+    user-select: none;
+}
+.follow-us-icon {
+    background-color: #77a6d4;
+    padding: 17px;
+    border-radius: 40px;
+    
+}
+
+
+/* -----------------------------------BOOK YOUR TABLE SECTION---------------------------------*/
+
+.book-your-table-bg-container {
+    background-color: whitesmoke;
+}
+.book-your-table-title {
+    width: 60%
+}
+.book-your-table-button {
+    background-color: #c7b1a8;
+    border-radius: 20px;
+    width: 110px;
+    border-width: 0px;
+    font-family: "Roboto";
+    height: 34px;
+    color: black;
+}
+.book-your-table-desc {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+
+
+
+.customer-review-new-input {
+    height: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 30vw;
+    border-color: #4da6ff;
+    border-style:solid;
+}
+.customer-review-new-input-label {
+    background-color: #4da6ff;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.subscribe-btn {
+    background-color: #4da6ff;
+    padding: 12px;
+    border-radius: 40px;
+    height: 40px;
+    margin-left: 7px;
+}
+.email-warning {
+    color: red;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Allura&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.About-Us-section-container {
+    height: 100%;
+    background-color: #312525;
+}
+.about-us-heading {
+    color: white;
+    font-family: "Carrois Gothic SC";
+    letter-spacing: 1mm;
+    font-size: 20px;
+}
+.about-us-desc {
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.about-us-logo {
+    font-family: "Allura";
+    color: white;
+
+}
+.about-us-line {
+    border-color: white;
+    border-width: 3px;
+    width: 30%;
+}
+.about-us-img {
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+}
+.about-us-button{
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    padding: 7px;
+    width: 165px;
+    letter-spacing: 0.2em;
+    font-family: "Carrois Gothic SC";
+}

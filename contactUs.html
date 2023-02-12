@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="restaurant.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c5eb76d5b1.js" crossorigin="anonymous"></script>
+    <title>Highway Restaurant</title>
+</head>
+<body>
+    <div class="follow-us-bg-section pt-5 d-flex flex-column justify-content-center" id="followusSection">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-7 pl-5 mb-5 pt-3">
+                    <img src="https://i.ibb.co/BcFmQr0/IMG-20221120-190441.png" class="mb-4 contact-us-reach-logo" draggable="false"/>
+
+                    <div class="d-flex flex-row mb-3">
+                        <i class="fa-regular fa-envelope follow-us-icon"></i>
+                        <div class="d-flex flex-column justify-content-center ml-3">
+                            <a href="" class="social-links">highwaysupport@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mb-3">
+                        <i class="fa-solid fa-phone follow-us-icon"></i>
+                        <div class="d-flex flex-column justify-content-center ml-3">
+                            <a href="" class="social-links">+91 9696969696</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mb-3">
+                        <img src="https://i.ibb.co/kcCNH3m/IMG-20221120-190011.png" class="social-img" draggable="false"/>
+                        <div class="d-flex flex-column justify-content-center ml-3">
+                            <a href="" class="social-links">@HighwayRestaurant</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row mb-3">
+                        <img src="https://i.ibb.co/F7t2dmQ/IMG-20221120-190100.png" class="social-img" draggable="false"/>
+                        <div class="d-flex flex-column justify-content-center ml-3">
+                            <a href="" class="social-links">@HighwayRestaurant</a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://i.ibb.co/HFQS05q/IMG-20221120-190036.png" class="social-img" draggable="false"/>
+                        <div class="d-flex flex-column justify-content-center ml-3">
+                            <a href="" class="social-links">@HighwayRestaurant</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 d-none d-lg-block">
+                    <div class="d-flex flex-column justify-content-end h-100">
+                        <img src="https://i.ibb.co/S7gWN7M/IMG-20221120-185912.png" class="w-100" style="user-select: none;" draggable="false"/>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-12 d-lg-none d-block">
+                    <div class="d-flex flex-row justify-content-center ml-4 mt-3">
+                        <div>
+                          <label for="newReview" class="customer-review-new-input-label text-center pt-2" >Get updates</label>
+                        </div>
+                        
+                        <input type="text" class="customer-review-new-input" id="subscribe-mail" placeholder="Type your mail here...."/>
+                        <i class="fa-regular fa-circle-check subscribe-btn" onclick="subscribed()" id="subscribe-ok"></i>
+                    </div>
+                    <p class="text-center email-warning" id="warning"></p>
+                    
+
+                    <div class="d-flex flex-column justify-content-center h-100">
+                        <img src="https://i.ibb.co/S7gWN7M/IMG-20221120-185912.png" class="w-100" style="user-select: none;" draggable="false"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="d-none d-lg-block">
+                <div class="d-flex flex-row ml-4 mt-3">
+                    <div class="d-flex flex-column justify-content-center">
+                      <label for="newReview" class="customer-review-new-input-label text-center pt-2" >Get updates</label>
+                    </div>
+                    <input type="text" class="customer-review-new-input" id="subscribe-mail2" placeholder="Type your mail here...."/>
+                    <i class="fa-regular fa-circle-check subscribe-btn" onclick="subscribed()" id="subscribe-ok"></i>
+                </div>
+                <p class="text-center email-warning" id="warning2"></p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
